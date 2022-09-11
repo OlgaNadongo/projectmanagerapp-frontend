@@ -1,4 +1,4 @@
-import React,(useState) from 'react';
+import React from 'react';
 import {NavLink} from 'react-router-dom'
 
 
@@ -13,7 +13,7 @@ function Header() {
 
            <nav className='navbar'>
              <ul>
-                <NavLink className='links' to="/login"><button>Login</button></NavLink>
+                <NavLink className='links' to="/login">Log in</NavLink>
                 <NavLink className='links' to="/signup">Sign Up</NavLink>
              </ul>
            </nav>
