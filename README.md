@@ -8,12 +8,12 @@
 
  - [x] A user opens the app and sees the landing page
  - [x] A user then logs in on the header and are taken to the login page
- - [x]The user enters their email and password which is validated to see whether they are in the database
- - [x]If they exist in the database, they are logged in and get see a list of projects they currently have
- - [x]The user can add more projects by clicking on Add Project
- - [x]The user can delete a project
+ - [x] The user enters their email and password which is validated to see whether they are in the database
+ - [x] If they exist in the database, they are logged in and get see a list of projects they currently have
+ - [x] The user can add more projects by clicking on Add Project
+ - [x] The user can delete a project
  - [x] The user can check on teammates in a particular project by clicking on Show button
- - [x]The user can choose to add a teammember or delete an existing teammember from the project
+ - [x] The user can choose to add a teammember or delete an existing teammember from the project
  -
  
 
