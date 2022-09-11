@@ -52,7 +52,7 @@ function ProjectList({projects,setProjects}){
                       {
                        
                             projects.map((project,index)=>
-                            <li className='projectlist'>
+                            <li className='projectlist' key={index}>
                                 <ProjectItem  key={index} id={project.id} title={project.title} deleteAProject={deleteAProject} />
                             </li>
                             )

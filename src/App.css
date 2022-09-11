@@ -100,6 +100,20 @@ footer  p{
 /* 
 homepage */
 
+
+/* sign up form */
+.signupwrapper{
+  background-color: rgb(184, 170, 170);;
+  margin-top: 8%;
+  margin-left: 25%;
+  padding: 7%;
+   text-align: center; 
+   height: 300px;
+   width:50%;
+   height: 70%;
+   border-radius: 20px;
+}
+
 /* log in form */
 .logincontainer{
   display: flex;
@@ -118,6 +132,7 @@ homepage */
     height: 300px;
     width:50%;
     height: 70%;
+    border-radius: 20px;
     /* padding: 30px;
     width:700px;
     height: 600px; */

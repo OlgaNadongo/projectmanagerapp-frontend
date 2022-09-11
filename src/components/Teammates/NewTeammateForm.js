@@ -46,8 +46,7 @@ const NewTeammateForm = ({addATeammate}) => {
             </div>
 
              <div className='submitteam'>
-               <input type="submit" className='submitbtn' value="Add Person" />
-               
+               <input type="submit" className='submitbtn' value="Add Person" />  
             </div>       
            
         </form>
