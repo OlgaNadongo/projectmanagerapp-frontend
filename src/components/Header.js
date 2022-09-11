@@ -1,5 +1,7 @@
-import React from 'react';
+import React,(useState) from 'react';
 import {NavLink} from 'react-router-dom'
+
+
 
 function Header() {
     return(
@@ -11,7 +13,7 @@ function Header() {
 
            <nav className='navbar'>
              <ul>
-                <NavLink className='links' to="/login">Login</NavLink>
+                <NavLink className='links' to="/login"><button>Login</button></NavLink>
                 <NavLink className='links' to="/signup">Sign Up</NavLink>
              </ul>
            </nav>
