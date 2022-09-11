@@ -324,14 +324,20 @@ homepage */
     display: flex;
     flex-direction: row;
     font-weight: bold;
+    
 }
 
 .nameitem{
-  margin-right: 20px;
+  margin-right: 5px;
+  font-size: 20px;
+  margin-left: 20px;
+
   
 }
 .emailitem{
   margin-right: 20px;
+  font-size: 20px;
+  margin-left: 20px;
 }
 
 .submitteamitembtn{
@@ -346,14 +352,14 @@ homepage */
   font-weight: 600;
   margin-top: 5px;
 }
-.nameitem{
+/* .nameitem{
    font-size: 20px;
    margin-left: 20px;
 }
 
 .emailitem{
   font-size: 20px;
-}
+} */
 
 /* teammateform */
 
