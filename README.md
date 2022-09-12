@@ -19,7 +19,7 @@
 
 
 ## **Link**
-[Sweezy Project Manger]
+[Sweezy Project Manger](https://main--snazzy-naiad-a04d6a.netlify.app/)
 
  ## **License**
  MIT License

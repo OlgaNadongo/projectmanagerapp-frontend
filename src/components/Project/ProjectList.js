@@ -13,7 +13,6 @@ function ProjectList({projects,setProjects}){
             .then((data) => setProjects(data));
         // .catch(error=>console.log(error))
       },[])
-
       // adding a new project
       function addAProject(newProject){
         setProjects([...projects,newProject])
