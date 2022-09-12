@@ -5,6 +5,8 @@ import NewProjectForm from './NewProjectForm';
 function ProjectList({projects,setProjects}){
     // const [filter, setFilterItem]=useState('')
 
+    const resetInit = () => setProjects(false)
+
     useEffect(()=>{
             fetch("https://sweezyprojectmanager.herokuapp.com/projects")
             .then((r) => r.json())
