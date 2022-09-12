@@ -48,7 +48,7 @@ const Logintrial = ({submitForm}) => {
         });
         console.log(compareUserData);
         if (
-          compareUserData.length =g== 0
+          compareUserData.length === 0
         ) {
           console.log(false);
           return false;
