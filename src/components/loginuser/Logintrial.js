@@ -65,7 +65,7 @@ const Logintrial = ({submitForm}) => {
     useEffect(()=>{ //checks for errors.If no errors,sets value of submit form to true thus showing success message
        if(Object.keys(errors).length === 0 && dataIsCorrect){
 
-              fetch("http://localhost:9292/users")
+              fetch("https://sweezyprojectmanager.herokuapp.com/users")
                 .then((response) => response.json())
                 .then((data) => setUsersLogin(data));
             

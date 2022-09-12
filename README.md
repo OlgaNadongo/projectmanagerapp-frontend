@@ -14,7 +14,7 @@
  - [x] The user can delete a project
  - [x] The user can check on teammates in a particular project by clicking on Show button
  - [x] The user can choose to add a teammember or delete an existing teammember from the project
- -
+ 
  
 
 

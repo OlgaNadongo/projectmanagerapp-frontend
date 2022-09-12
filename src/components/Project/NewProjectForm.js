@@ -13,7 +13,7 @@ const NewProjectForm = ({addAProject}) => {
       function handleFormSubmit(event){
         
         event.preventDefault();
-        fetch('http://localhost:9292/projects',{
+        fetch('https://sweezyprojectmanager.herokuapp.com/projects',{
           method:'POST',
           headers:{
             'Content-Type':'Application/json',

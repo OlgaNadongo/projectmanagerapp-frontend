@@ -8,7 +8,7 @@ const TeammateItem = ({id,name,email, deleteATeammate}) => {
   function handleDelete(){
     // console.log("deleted")
     
-      fetch(`http://localhost:9292/teammates/${id}`,{
+      fetch(`https://sweezyprojectmanager.herokuapp.com/teammates/${id}`,{
         method:'DELETE'
       })
       .then(response=>response.json())
@@ -31,6 +31,7 @@ const TeammateItem = ({id,name,email, deleteATeammate}) => {
         </div>
        
         <div>
+        
             <button onClick={handleDelete} className="submitteamitembtn">Remove</button>
         </div>
     </div>

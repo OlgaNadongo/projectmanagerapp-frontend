@@ -9,7 +9,7 @@ function TeammateList(){
     const[teammates,setTeammates]=useState([])
 
     useEffect(()=>{
-            fetch("http://localhost:9292/teammates")
+            fetch("https://sweezyprojectmanager.herokuapp.com/teammates")
             .then((r) => r.json())
             .then((data) => setTeammates(data));
         // .catch(error=>console.log(error))

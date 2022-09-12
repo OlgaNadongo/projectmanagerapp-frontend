@@ -9,7 +9,7 @@ const ProjectItem = ({id,title, deleteAProject}) => {
 
     function handleDelete(id){
       // console.log("deleted")
-        fetch(`http://localhost:9292/projects/${id}`,{
+        fetch(`https://sweezyprojectmanager.herokuapp.com/projects/${id}`,{
           method:'DELETE'
         })
         .then(response=>response.json())

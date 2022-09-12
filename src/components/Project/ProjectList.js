@@ -6,7 +6,7 @@ function ProjectList({projects,setProjects}){
     // const [filter, setFilterItem]=useState('')
 
     useEffect(()=>{
-            fetch("http://localhost:9292/projects")
+            fetch("https://sweezyprojectmanager.herokuapp.com/projects")
             .then((r) => r.json())
             .then((data) => setProjects(data));
         // .catch(error=>console.log(error))

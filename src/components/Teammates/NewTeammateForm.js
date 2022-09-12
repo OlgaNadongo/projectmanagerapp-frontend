@@ -3,19 +3,22 @@ import React,{useState} from 'react'
 const NewTeammateForm = ({addATeammate}) => {
      
     const [teammateFormData,setTeammateData]= useState({name:"",email:""});
-    const[showTeamForm,setShowTeamForm]=useState(true)
+    // const[showTeamForm,setShowTeamForm]=useState(true)
 
 
     function handleInputChange(event){
-        setTeammateData({...setTeammateData,[event.target.name]:event.target.value})
+        //  console.log(event.target.name)
+        setTeammateData({...teammateFormData,[event.target.name]:event.target.value})
 
       }
 
 
       function handleFormSubmit(event){
-        
+
+        console.log(teammateFormData)
+
         event.preventDefault();
-        fetch('http://localhost:9292/teammates',{
+        fetch('https://sweezyprojectmanager.herokuapp.com/teammates',{
           method:'POST',
           headers:{
             'Content-Type':'Application/json',
@@ -37,12 +40,13 @@ const NewTeammateForm = ({addATeammate}) => {
   return (
     <div className='teammateformdiv'>
         <form onSubmit={handleFormSubmit} className="addteamitems" >
+
              <div className='nameinput'>
                <input placeholder="name..." name="name"  value={teammateFormData.name} onChange={handleInputChange}/>
              </div>
             
             <div className='emailinput'>
-              <input placeholder="email..." name="email"  value={teammateFormData.name} onChange={handleInputChange}/>  
+              <input placeholder="email..." name="email"  value={teammateFormData.email} onChange={handleInputChange}/>  
             </div>
 
              <div className='submitteam'>
