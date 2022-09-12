@@ -42,13 +42,13 @@ const Logintrial = ({submitForm}) => {
 //added part for login
       function mappingThroughUserData() {
         const compareUserData = usersLogin.filter((element) => { 
-          return  element.email == values.email &&
-             element.password_digest == values.password_digest
+          return  element.email === values.email &&
+             element.password_digest === values.password_digest
     
         });
         console.log(compareUserData);
         if (
-          compareUserData.length == 0
+          compareUserData.length =g== 0
         ) {
           console.log(false);
           return false;

@@ -4,7 +4,7 @@ import React from "react";
 function Footer(){
    return(
     <footer>
-        <p>copyrightsweezy@2022</p>
+        <p>&copy;{new Date().getFullYear()} Wanne Inc | All rights reserved</p>
     </footer>
    ) 
 }
